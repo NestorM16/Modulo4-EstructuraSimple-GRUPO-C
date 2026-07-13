@@ -4,4 +4,3 @@ nombre = input("Por favor, ingresa tu nombre: ")
 edad = input ("Por favor, ingrese tu edad: ")
 
 print("¡Hola que tal,", nombre)
-print("Tu edad es de", edad, "años.")
