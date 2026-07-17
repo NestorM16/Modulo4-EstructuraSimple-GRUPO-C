@@ -1,20 +1,33 @@
-# Historia Interactiva en Python
+# Historia personalizada en Python
 
 ## Descripción
 
-Este proyecto consiste en un programa desarrollado en Python que solicita información al usuario mediante `input()` y utiliza esos datos para mostrar un saludo y generar una historia personalizada relacionada con la programación.
+Este proyecto consiste en un programa desarrollado en Python que solicita información al usuario y genera una historia personalizada utilizando los datos ingresados.
 
-## Funciones del programa
+El programa permite:
+- Solicitar el nombre, edad y ciudad del usuario.
+- Preguntar información adicional como comida favorita, mascota y lenguaje de programación.
+- Crear una historia personalizada con la información proporcionada.
 
-* Solicita el nombre, la edad y la ciudad del usuario.
-* Pide su comida favorita y el lenguaje de programación que le gustaría aprender.
-* Muestra un saludo personalizado.
-* Crea una pequeña historia utilizando la información ingresada.
+## Tecnologías utilizadas
 
-## Ejecución
+- Python 3
 
-Ejecuta el programa con el siguiente comando:
+## Conceptos utilizados
+
+En este proyecto se aplican los siguientes conceptos:
+
+- Variables para almacenar información.
+- Entrada de datos mediante `input()`.
+- Conversión de datos mediante `int()`.
+- Uso de cadenas de texto.
+- Uso de f-strings para mostrar información personalizada.
+
+## Ejecución del programa
+
+1. Descargar o clonar el repositorio.
+2. Abrir una terminal en la carpeta del proyecto.
+3. Ejecutar el archivo principal:
 
 ```bash
 python main.py
-```
